@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.fact-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.fact-card:hover {
+    transform: translateY(-5px);
+}
+
+.fact-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fact-text {
+    color: #34495e;
+    margin: 0;
+}
+
+#shuffleBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#shuffleBtn:hover {
+    background-color: #2980b9;
+}
